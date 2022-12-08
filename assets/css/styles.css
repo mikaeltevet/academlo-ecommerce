@@ -95,7 +95,7 @@ body.dark-theme {
   --first-color: hsl(182, 53%, 74%);
   --button-color: hsl(246, 16%, 12%);
   --button-color-alt: hsl(0, 0%, 28%);
-  --card-color: hsla(246, 16%, 5%, .5);
+  --card-color: hsl(246, 16%, 10%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 75%);
   --body-color: hsl(249, 19%, 14%);
@@ -664,12 +664,15 @@ body.dark-theme {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+
   .home__img-bg {
     width: 220px;
   }
+
   .home__title {
     font-size: var(--h1-font-size);
   }
+
   .home__button {
     font-size: var(--smaller-font-size);
   }
@@ -744,9 +747,11 @@ body.dark-theme {
     justify-content: center;
     gap: 2.5rem;
   }
+
   .products__card {
     padding: 2rem 0;
   }
+
   .products__img {
     height: 155px;
   }
@@ -755,6 +760,7 @@ body.dark-theme {
     grid-template-columns: repeat(4, max-content);
     justify-content: space-between;
   }
+  
   .footer__title {
     font-size: var(--h3-font-size);
   }
